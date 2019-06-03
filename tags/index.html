@@ -79,17 +79,17 @@
 
 
 
-<meta name="description" content="title: tagsdate: 2019-06-02 19:06:50type: “tags”comments: false​—">
+<meta name="description" content="wc means whocares">
 <meta property="og:type" content="website">
-<meta property="og:title" content="时间门外">
+<meta property="og:title" content="tags">
 <meta property="og:url" content="http://yoursite.com/tags/index.html">
 <meta property="og:site_name" content="时间门外">
-<meta property="og:description" content="title: tagsdate: 2019-06-02 19:06:50type: “tags”comments: false​—">
+<meta property="og:description" content="wc means whocares">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-06-02T11:44:30.540Z">
+<meta property="og:updated_time" content="2019-06-03T03:03:04.196Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="时间门外">
-<meta name="twitter:description" content="title: tagsdate: 2019-06-02 19:06:50type: “tags”comments: false​—">
+<meta name="twitter:title" content="tags">
+<meta name="twitter:description" content="wc means whocares">
 
 
 
@@ -125,7 +125,7 @@
 
 
 
-  <title> | 时间门外</title>
+  <title>tags | 时间门外</title>
   
 
 
@@ -252,7 +252,56 @@
   
 </nav>
 
-
+<script>
+    !function (e, t, a) {
+            function n() {
+                    c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), o(), r();
+            }
+            function r() {
+                    for (var e = 0; e < d.length; e++)
+                            d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += 0.004,
+    d[e].alpha -= 0.013, d[e].el.style.cssText = 'left:' + d[e].x + 'px;top:' + d[e].y + 'px;opacity:' + d[e].alpha + ';transform:scale(' + d[e].scale + ',' + d[e].scale + ') rotate(45deg);background:' + d[e].color + ';z-index:99999');
+                    requestAnimationFrame(r);
+            }
+            function o() {
+                    var t = 'function' == typeof e.onclick && e.onclick;
+                    e.onclick = function (e) {
+                            t && t(), i(e);
+                    };
+            }
+            function i(e) {
+                    var a = t.createElement('div');
+                    a.className = 'heart', d.push({
+                            el: a,
+                            x: e.clientX - 5,
+                            y: e.clientY - 5,
+                            scale: 1,
+                            alpha: 1,
+                            color: s()
+                    }), t.body.appendChild(a);
+            }
+            function c(e) {
+                    var a = t.createElement('style');
+                    a.type = 'text/css';
+                    try {
+                            a.appendChild(t.createTextNode(e));
+                    } catch (t) {
+                            a.styleSheet.cssText = e;
+                    }
+                    t.getElementsByTagName('head')[0].appendChild(a);
+            }
+            function s() {
+                    return 'rgb(' + ~~(255 * Math.random()) + ',' + ~~(255 * Math.random()) + ',' + ~~(255 * Math.random()) +
+    ')';
+            }
+            var d = [];
+            e.requestAnimationFrame = function () {
+                    return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {
+                            setTimeout(e, 1000 / 60);
+                    };
+            }(), n();
+    }(window, document);
+    </script>
 
  </div>
     </header>
@@ -270,7 +319,7 @@
     <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline"></h1>
+	<h1 class="post-title" itemprop="name headline">tags</h1>
 
 
 
@@ -282,9 +331,14 @@
       <div class="post-body">
         
         
-          <hr>
-<p>title: tags<br>date: 2019-06-02 19:06:50<br>type: “tags”<br>comments: false<br>​—</p>
-
+          <div class="tag-cloud">
+            <div class="tag-cloud-title">
+                目前共计 1 个标签
+            </div>
+            <div class="tag-cloud-tags">
+              <a href="/tags/7/" style="font-size: 12px; color: #ccc">7</a>
+            </div>
+          </div>
         
       </div>
       
@@ -302,10 +356,6 @@
 
 
           
-
-  
-
-
 
         </div>
         
@@ -351,15 +401,24 @@
             
 
             
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">1</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
 
             
               
               
               <div class="site-state-item site-state-tags">
-                
+                <a href="/tags/index.html">
                   <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">标签</span>
-                
+                </a>
               </div>
             
 
@@ -414,7 +473,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+        
 <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-snowflake-o"></i>
@@ -441,11 +500,6 @@
 
 
 
-<div class="powered-by">
-<i class="fa fa-user-md"></i><span id="busuanzi_container_site_uv">
-  本站访客数:<span id="busuanzi_value_site_uv"></span>
-</span>
-</div>
 
         
 
