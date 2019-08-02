@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="舆情监控,舆论引导,舆论风向,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="舆情监控与舆论引导学习小记。">
+<meta name="keywords" content="舆情监控,舆论引导,舆论风向">
+<meta property="og:type" content="article">
+<meta property="og:title" content="舆情监控与舆论引导学习笔记">
+<meta property="og:url" content="http://www.woyouduohenni.com/pub_sentiment.html">
+<meta property="og:site_name" content="时间门外">
+<meta property="og:description" content="舆情监控与舆论引导学习小记。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-08-01T10:08:50.923Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="舆情监控与舆论引导学习笔记">
+<meta name="twitter:description" content="舆情监控与舆论引导学习小记。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.woyouduohenni.com/pub_sentiment.html">
+
+
+
+
+
+  <title>舆情监控与舆论引导学习笔记 | 时间门外</title>
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-141260992-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">时间门外</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">你的美秒杀了我目光</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-books">
+          <a href="/categories/books" rel="section">
+            
+            读书
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-films">
+          <a href="/categories/films" rel="section">
+            
+            观影
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-something">
+          <a href="/categories/something" rel="section">
+            
+            碎片
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-walking">
+          <a href="/categories/walking" rel="section">
+            
+            行走
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-studying">
+          <a href="/categories/studying" rel="section">
+            
+            听课
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+<script>
+    !function (e, t, a) {
+            function n() {
+                    c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), o(), r();
+            }
+            function r() {
+                    for (var e = 0; e < d.length; e++)
+                            d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += 0.004,
+    d[e].alpha -= 0.013, d[e].el.style.cssText = 'left:' + d[e].x + 'px;top:' + d[e].y + 'px;opacity:' + d[e].alpha + ';transform:scale(' + d[e].scale + ',' + d[e].scale + ') rotate(45deg);background:' + d[e].color + ';z-index:99999');
+                    requestAnimationFrame(r);
+            }
+            function o() {
+                    var t = 'function' == typeof e.onclick && e.onclick;
+                    e.onclick = function (e) {
+                            t && t(), i(e);
+                    };
+            }
+            function i(e) {
+                    var a = t.createElement('div');
+                    a.className = 'heart', d.push({
+                            el: a,
+                            x: e.clientX - 5,
+                            y: e.clientY - 5,
+                            scale: 1,
+                            alpha: 1,
+                            color: s()
+                    }), t.body.appendChild(a);
+            }
+            function c(e) {
+                    var a = t.createElement('style');
+                    a.type = 'text/css';
+                    try {
+                            a.appendChild(t.createTextNode(e));
+                    } catch (t) {
+                            a.styleSheet.cssText = e;
+                    }
+                    t.getElementsByTagName('head')[0].appendChild(a);
+            }
+            function s() {
+                    return 'rgb(' + ~~(255 * Math.random()) + ',' + ~~(255 * Math.random()) + ',' + ~~(255 * Math.random()) +
+    ')';
+            }
+            var d = [];
+            e.requestAnimationFrame = function () {
+                    return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {
+                            setTimeout(e, 1000 / 60);
+                    };
+            }(), n();
+    }(window, document);
+    </script>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.woyouduohenni.com/pub_sentiment.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="WC">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/blog-logo.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="时间门外">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">舆情监控与舆论引导学习笔记</h1>
+        
+
+        <div class="post-meta">
+        
+
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-07-31T14:35:37+08:00">
+                2019-07-31
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/studying/" itemprop="url" rel="index">
+                    <span itemprop="name">studying</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/pub_sentiment.html" class="leancloud_visitors" data-flag-title="舆情监控与舆论引导学习笔记">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  3.1k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  10
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>舆情监控与舆论引导学习小记。<br><a id="more"></a></p>
+</blockquote>
+<h1 id="舆情监控与舆论引导"><a href="#舆情监控与舆论引导" class="headerlink" title="舆情监控与舆论引导"></a>舆情监控与舆论引导</h1><p>借助互联网舆情监测工具，及时监测、汇集、研判网上舆情，引导舆论方向，化解危机舆论。跟踪事态发展，及时向有关部门通报，快速应对处理，变被动为主动，使网络舆情成为领导和相关部门决策的重要依据。</p>
+<p>网络舆情监测主要使用德尔菲法（或者叫专家意见法）。它的主要原则是根据既定规则组织专家，而专家只能与调查人员发生关系，专家之间互不讨论，并通过匿名发表意见的方式，多轮调查，反复征询、归纳、修改专家对所提问题的看法，汇总出专家基本一致的看法，作为评判的结果。德尔菲法能发挥专家会议法的优点，充分发挥各位专家的作用，集思广益，而且能把各位专家意见的分歧点表达出来，取长避短。因而，这种方法代表性好，准确性高，可靠性强。但过程较为复杂，花费时间较长。</p>
+<p>除了德尔菲法之外，德比克法（或称列名小组法）也是一种不错的选择。这种方法采用函询与集体讨论相结合的方式来征求专家意见，它将专家分成若干个小组，专家在组内互不通气，每人只用书面形式回答所提问题。小组负责人收集整理答案后，将多种意见都公布出来，请专家进一步考虑后表决，只表示同意与否，不作辩论。形成小组意见后，召开全体专家讨论会，重新投票以取得最终意见。列名小组法吸收了专家会议法与德尔菲法的长处，较好地避免了权威专家的强势影响。</p>
+<h1 id="百度舆情"><a href="#百度舆情" class="headerlink" title="百度舆情"></a>百度舆情</h1><p><strong>声量诊断</strong>捕捉互联网观点，从量级趋势上诊断该观点的支持、传播数量，从声量上诊断该观点是否具备关注度与传播度，能否形成舆情。<br><strong>传播分析</strong>基于具备一定关注量级且经过二次传播的舆情，甄别传播节点，提取节点调性，分析节点影响力，摹画舆情传播路径。<br><strong>受众画像</strong>在不透露任何网民个人数据的情形下，对舆情参与者的共性特征进行勾勒，如性别、年龄、地域及兴趣点。<br><strong>事件挖掘</strong>从互联网海量舆情中，机器自动识别、挖掘、聚类事件，分析事件热度，梳理事件来龙去脉，基于事件做舆情全面分析。<br><strong>情感提炼</strong>从海量语句中，提取识别观点语句，定性语义正负倾向，提取主要观点，挖掘敏感言论，舆情健康度打分。<br><strong>预警设置</strong>提供预警功能，当关注舆情的讨论量或负面数量到达阈值时以短信或邮件方式通知客户，不错过舆情黄金时间。</p>
+<h2 id="用途"><a href="#用途" class="headerlink" title="用途"></a>用途</h2><ul>
+<li>竞争分析、传播效果分析、口碑检测、危机公关</li>
+<li>情感分析、观点分析、事件脉络、趋势分析、相关性分析、地域识别、传播路径、舆情预警</li>
+</ul>
+<h2 id="怎么做？"><a href="#怎么做？" class="headerlink" title="怎么做？"></a>怎么做？</h2><h3 id="汇总信息源"><a href="#汇总信息源" class="headerlink" title="汇总信息源"></a>汇总信息源</h3><p>①传统媒体信息源：每家纸媒除了实体刊物还基本配有媒体新闻站、微信公众号、微博官V，这些渠道一定要全部总结清楚。在总结过程中，一定要有所侧重，要给这些媒体做好权重和分类。权重是媒体影响力，分类则是，企业所在行业的一些知名行业媒体。<br>判断一个传统媒体影响力的简易方法：看这个媒体原创文章的数量和更新频率、微博互动情况、微信阅读量、媒体站的Alexa全球和全国排名、百度指数、微信指数。<br>②社会化媒体信息源：寻找行业大V、知名大V的方式非常简单，微博有行业影响力榜单、行业热门微博、热门微博、热门话题。他们除了分享行业信息，也会更多的吐槽评论公司、产品、热门话题。<br>③新媒体信息源（不止表格中列举的这些）。</p>
+<h3 id="拆解关键字"><a href="#拆解关键字" class="headerlink" title="拆解关键字"></a>拆解关键字</h3><p>监控时，主要关注：公司名称、产品名称、行业名称、公司创始人、竞争对手名称等这些关键字，也就是说和这些关键字相关的内容，都要关注。</p>
+<h3 id="监控工具化"><a href="#监控工具化" class="headerlink" title="监控工具化"></a>监控工具化</h3><p>信息源太多，如果一个个去统计会太累太麻烦，所以企业做舆情监控时需要借助一些监控工具。如RSS客户端，可监控新闻源；即刻可监控微信、微信、知乎、豆瓣等；可以使用搜索引擎来监控百度新闻、360搜索新闻、搜狗新闻等。使用工具监控时，建议监控频率：早中晚三次，每次5~10分钟即可。</p>
+<h1 id="企业出现负面信息应该如何处理？"><a href="#企业出现负面信息应该如何处理？" class="headerlink" title="企业出现负面信息应该如何处理？"></a>企业出现负面信息应该如何处理？</h1><p>1、危机不分大小<br>企业在负面信息应对上需要有及时性，也就是说负面发生之后，要第一时间对应。很多大危机都是小危机爆发出来的，如果你监控到了小负面，就要及时回应处理，只有把用户的任何槽点都认真对待，才不会引发大的矛盾。<br>2、正面澄清<br>很多的负面信息的出现确实是无中生有的，那企业要做的就是勇敢的站出来澄清事实，如果处理的得当，可能会出现意外的收获。<br>在澄清的过程中，态度很重要，不一定需要多么的强势，毕竟对于大众来说，关心的并不是谁对谁错，而是在于企业对这件事情的态度如何。在此过程中一定要做到：诚实，诚恳，诚意。<br>3、删除负面信息<br>如果确实双方存在了不可协调的矛盾，就要想办法删除这些负面的消息，一般方法是，联系负面信息所在的平台进行删除，这种直接提交资料删帖(越大型的网站删除渠道越明确)，一般的大型网站都会有处理侵权投诉版块，只要提交相关资料就可以删帖，或者是联系网站客服、发邮件等各种途径进行反馈。<br>当然，如果是一些媒体发布的信息，并且情况属实，我们就不能采取删除的方式了。我们可以通过相关媒体，去承认事实，表面自身的态度，这种理性的处理方式会比逃避更好一些。<br>4、用海量的正面信息覆盖掉负面信息<br>其实很多恶意攻击你品牌的负面信息，大部分虽然发布出去了，有链接，但是很多其实是没有阅读的，但是客户去搜索可能会搜索到；现在的客户一般会去搜索这家企业怎么样，好不好，可靠不，客户一般很关心这家企业和品牌的负面信息，毕竟大多数客户了解企业和其品牌信息，不是去官网或者资讯网站去了解，大多数都是通过搜索引擎去搜索查询。那么，怎么办呢？其实让搜索引擎前面三页，围绕相关关键词，都展现你的正面信息就可以了。<br>总结：企业要明确舆情监控的重要性，并且做好汇总信息源、拆解关键字、监控工具化，提前监控。一旦出现和企业相关的负面信息，也要积极面对。</p>
+<p>1.掌握话语主导权<br>2.求同存异，理性讨论<br>3.品牌公信力建立，加强互动交流</p>
+<p>舆情分析师所需要的六大技能，即网络言论的挖掘收集、概括剖析、抽样统计、报告写作、走势预测、提出应对建议等。</p>
+<p>熟悉网络舆情抽样、统计和分析工具模型，搜索关键词设置技巧，培养对社会心理、“刻板印象”与网络语言文化的敏锐感</p>
+<p>全网舆情分析——热度指数查询；单条信息源传播分析</p>
+<p>关键词——词云 传播深度、广度</p>
+<h1 id="口碑"><a href="#口碑" class="headerlink" title="口碑"></a>口碑</h1><p>1.市场环境<br>2.消费者/顾客/用户/业内同行/观察者反映<br>3.员工反映（薪资，劳动强度，福利等）这点尤其需要盯紧，举例来说，内部员工的爆料，合伙人之间的撕逼，很容易被炒作利用，进而演变成危机公关</p>
+<p>1.纵向了解自身网络口碑<br>2.横向了解和比较行业内其他企业口碑<br>3.了解圈内趋势发展<br>4.发现潜在的舆论威胁，从其他企业的危机公关中吸取教训。</p>
+<h1 id="深入分析舆情事件"><a href="#深入分析舆情事件" class="headerlink" title="深入分析舆情事件"></a>深入分析舆情事件</h1><p>能找出相关博文的传播源头，讨论数量及话题出现的最早和最近时间，并能直观展示不同平台相关话题的讨论比例，可对选中文字查看其传播源头，能识别微博言论潜在的意见领袖，实时获取其最新数据，对重点关注博主的社交关系、关联身份、博主圈、所属地域、博主类型进行系统分析，可对博文情感、传播路径、影响力和活跃度、区域热点等进行整体分析。</p>
+<h2 id="企业行为"><a href="#企业行为" class="headerlink" title="企业行为"></a>企业行为</h2><ul>
+<li>社交监控——品牌监控</li>
+<li>社交回应——危机公关——客户服务</li>
+<li>社交传播——推荐宣传——培育社区——品牌支持</li>
+<li>社交引导——品牌认知——产品发布——精准销售——客户反馈</li>
+</ul>
+<h2 id="客户行为"><a href="#客户行为" class="headerlink" title="客户行为"></a>客户行为</h2><ul>
+<li>考虑——评估——购买——体验——支持——死忠</li>
+</ul>
+<h1 id="社媒价值"><a href="#社媒价值" class="headerlink" title="社媒价值"></a>社媒价值</h1><p>洞察——客户满意度——竞争对手分析——发觉销售线索——获取新创意——降低成本——快速拓展市场</p>
+<p>响应速度——响应态度——持续处理——善后技巧——</p>
+<p>正确引导网络舆情。一是充分发挥政府公权力、传媒和知情方面的优势，理性引导舆论。充分发挥政府信息优势和宣传部门媒体优势，正确地引导舆论，营造网上主流舆论话语权。二是建立”网上统一战线”。求同存异，在论坛、社区、博客、QQ群等载体中广泛争取支持者，使舆论向理性、可控的方向发展。三是加强政府网站建设。在政策、人力、财力上扶持政府网站，扩大主流网站在网民中的影响力和吸引力，使其真正成为能对本地网络舆论起主导作用的权威网站；同时，加强县长信箱、在线访谈、留言板等政府和公众沟通交流的互动栏目和政府信息公开栏目建设，将网上沟通作为了解民情、采集民意、汇聚民智的重要平台，真诚客观及时回应网民诉求，使政府网站成为政府和民众之间真情交流、沟通的桥梁。</p>
+<h2 id="善于运用媒体、企业网站等话语渠道"><a href="#善于运用媒体、企业网站等话语渠道" class="headerlink" title="善于运用媒体、企业网站等话语渠道"></a>善于运用媒体、企业网站等话语渠道</h2><p>网络舆情纷繁复杂，多元的发声主体和渠道意味着企业更难把控消费者的舆情走向，而媒体作为社会上主要的权威信息来源，能够快速将企业的声音传递给消费者，起到安抚情绪、避免舆情极端化的作用。房地产企业应本着积极沟通的态度，通过媒体、企业网站等话语渠道促进与消费者的理性对话。</p>
+<h2 id="重视消费者的网络舆情走向"><a href="#重视消费者的网络舆情走向" class="headerlink" title="重视消费者的网络舆情走向"></a>重视消费者的网络舆情走向</h2><p>在个体能掌握一定话语资源的互联网时代，消费者个体往往能通过论坛、贴吧等社会化媒体发出自己的声音，并有可能汇聚成一股巨大的社会舆论力量，带来负面事件的曝光，为企业形象带来损害。企业不应忽略这股力量的存在，而是应该以诚恳的态度与消费者协商，将矛盾解决于线下的沟通之中，做到“矛盾不上网”。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>🙏感谢🙏</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="WC 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="WC 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/舆情监控/" rel="tag"># 舆情监控</a>
+          
+            <a href="/tags/舆论引导/" rel="tag"># 舆论引导</a>
+          
+            <a href="/tags/舆论风向/" rel="tag"># 舆论风向</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/bodysociology-ch9.html" rel="next" title="身體社會學第九講：身體的衣著與消費">
+                <i class="fa fa-chevron-left"></i> 身體社會學第九講：身體的衣著與消費
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/infoflow_intro.html" rel="prev" title="信息流广告优化学习笔记">
+                信息流广告优化学习笔记 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/blog-logo.jpg" alt="WC">
+            
+              <p class="site-author-name" itemprop="name">WC</p>
+              <p class="site-description motion-element" itemprop="description">wc means whocares</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives">
+              
+                  <span class="site-state-item-count">24</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">24</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/woyouduohenni" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:woyouduohenni@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+<div id="music163player">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="280" height="86" src="//music.163.com/outchain/player?type=2&id=26131760&auto=1&height=66">
+    </iframe>
+</div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#舆情监控与舆论引导"><span class="nav-number">1.</span> <span class="nav-text">舆情监控与舆论引导</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#百度舆情"><span class="nav-number">2.</span> <span class="nav-text">百度舆情</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#用途"><span class="nav-number">2.1.</span> <span class="nav-text">用途</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#怎么做？"><span class="nav-number">2.2.</span> <span class="nav-text">怎么做？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#汇总信息源"><span class="nav-number">2.2.1.</span> <span class="nav-text">汇总信息源</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#拆解关键字"><span class="nav-number">2.2.2.</span> <span class="nav-text">拆解关键字</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#监控工具化"><span class="nav-number">2.2.3.</span> <span class="nav-text">监控工具化</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#企业出现负面信息应该如何处理？"><span class="nav-number">3.</span> <span class="nav-text">企业出现负面信息应该如何处理？</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#口碑"><span class="nav-number">4.</span> <span class="nav-text">口碑</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#深入分析舆情事件"><span class="nav-number">5.</span> <span class="nav-text">深入分析舆情事件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#企业行为"><span class="nav-number">5.1.</span> <span class="nav-text">企业行为</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#客户行为"><span class="nav-number">5.2.</span> <span class="nav-text">客户行为</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#社媒价值"><span class="nav-number">6.</span> <span class="nav-text">社媒价值</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#善于运用媒体、企业网站等话语渠道"><span class="nav-number">6.1.</span> <span class="nav-text">善于运用媒体、企业网站等话语渠道</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#重视消费者的网络舆情走向"><span class="nav-number">6.2.</span> <span class="nav-text">重视消费者的网络舆情走向</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-snowflake-o"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">WC</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">44k</span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5448502709833572",
+    enable_page_level_ads: true
+  });
+</script>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i> 访问人数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i> 总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("whGj17RFOpq4aHkCoaMEerFD-gzGzoHsz", "ybofAhlWlKGKNA76CqXvSzz7");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+
+<!--崩溃欺骗-->
+<script type="text/javascript" src="/js/src/crash_cheat.js"></script>
