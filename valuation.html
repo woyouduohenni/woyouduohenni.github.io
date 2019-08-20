@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="入门到放弃,财务,财务分析,会计,估值,公司估值,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="入门别放弃。">
+<meta name="keywords" content="入门到放弃,财务,财务分析,会计,估值,公司估值">
+<meta property="og:type" content="article">
+<meta property="og:title" content="财务分析与估值 Financial Analysis and Valuation">
+<meta property="og:url" content="http://www.woyouduohenni.com/valuation.html">
+<meta property="og:site_name" content="时间门外">
+<meta property="og:description" content="入门别放弃。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-08-09T07:11:52.149Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="财务分析与估值 Financial Analysis and Valuation">
+<meta name="twitter:description" content="入门别放弃。">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.woyouduohenni.com/valuation.html">
+
+
+
+
+
+  <title>财务分析与估值 Financial Analysis and Valuation | 时间门外</title>
+  
+
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-141260992-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">时间门外</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">你的美秒杀了我目光</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-books">
+          <a href="/categories/books" rel="section">
+            
+            读书
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-films">
+          <a href="/categories/films" rel="section">
+            
+            观影
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-something">
+          <a href="/categories/something" rel="section">
+            
+            碎片
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-walking">
+          <a href="/categories/walking" rel="section">
+            
+            行走
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-studying">
+          <a href="/categories/studying" rel="section">
+            
+            听课
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+<script>
+    !function (e, t, a) {
+            function n() {
+                    c(".heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: '';width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}"), o(), r();
+            }
+            function r() {
+                    for (var e = 0; e < d.length; e++)
+                            d[e].alpha <= 0 ? (t.body.removeChild(d[e].el), d.splice(e, 1)) : (d[e].y--, d[e].scale += 0.004,
+    d[e].alpha -= 0.013, d[e].el.style.cssText = 'left:' + d[e].x + 'px;top:' + d[e].y + 'px;opacity:' + d[e].alpha + ';transform:scale(' + d[e].scale + ',' + d[e].scale + ') rotate(45deg);background:' + d[e].color + ';z-index:99999');
+                    requestAnimationFrame(r);
+            }
+            function o() {
+                    var t = 'function' == typeof e.onclick && e.onclick;
+                    e.onclick = function (e) {
+                            t && t(), i(e);
+                    };
+            }
+            function i(e) {
+                    var a = t.createElement('div');
+                    a.className = 'heart', d.push({
+                            el: a,
+                            x: e.clientX - 5,
+                            y: e.clientY - 5,
+                            scale: 1,
+                            alpha: 1,
+                            color: s()
+                    }), t.body.appendChild(a);
+            }
+            function c(e) {
+                    var a = t.createElement('style');
+                    a.type = 'text/css';
+                    try {
+                            a.appendChild(t.createTextNode(e));
+                    } catch (t) {
+                            a.styleSheet.cssText = e;
+                    }
+                    t.getElementsByTagName('head')[0].appendChild(a);
+            }
+            function s() {
+                    return 'rgb(' + ~~(255 * Math.random()) + ',' + ~~(255 * Math.random()) + ',' + ~~(255 * Math.random()) +
+    ')';
+            }
+            var d = [];
+            e.requestAnimationFrame = function () {
+                    return e.requestAnimationFrame || e.webkitRequestAnimationFrame || e.mozRequestAnimationFrame || e.oRequestAnimationFrame || e.msRequestAnimationFrame || function (e) {
+                            setTimeout(e, 1000 / 60);
+                    };
+            }(), n();
+    }(window, document);
+    </script>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.woyouduohenni.com/valuation.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="WC">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/blog-logo.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="时间门外">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">财务分析与估值 Financial Analysis and Valuation</h1>
+        
+
+        <div class="post-meta">
+        
+
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-08T22:45:38+08:00">
+                2019-08-08
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/studying/" itemprop="url" rel="index">
+                    <span itemprop="name">studying</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/valuation.html" class="leancloud_visitors" data-flag-title="财务分析与估值 Financial Analysis and Valuation">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  2.3k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  8
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <blockquote>
+<p>入门别放弃。<br><a id="more"></a></p>
+</blockquote>
+<h1 id="估值的基本方法"><a href="#估值的基本方法" class="headerlink" title="估值的基本方法"></a>估值的基本方法</h1><p>企业的价值评估和资产评估是两个不同的概念。</p>
+<p>估值——对企业或股权进行估值的过程。</p>
+<p>价值组成/来源：主营业务、非经营性净资产——&gt;企业价值 ——&gt;价值分配：负债、其他资本索取权、普通股权益</p>
+<p>两类思路：</p>
+<ul>
+<li><strong>贴现现金流方法</strong>：通过企业创造的（或者股东能够获得的）未来收益进行估值。</li>
+<li><strong>乘数法</strong>：通过与其他同类型企业的比较进行估值。</li>
+</ul>
+<p>资金的时间价值：今天的一块钱 != 明天的一块钱 ，不同时间获得的钱不能简单相加</p>
+<p>贴现：将未来的钱折换成今天的钱<br>现值=E/(1+r)t </p>
+<p><em>r为贴现率</em><br>企业的价值 = E + E/(1+r) + E/(1+r)² + E/(1+r)³ + …… = E/r</p>
+<p>永续年金——自由现金流维持稳定增长/数额</p>
+<p>预期收益<br>债权人 —— 利率<br>股东 —— 机会成本</p>
+<p>风险与收益相伴相随</p>
+<p>股东预期收益/要求回报率：用行业平均盈利水平衡量股东要求公司给的回报 —— 权益资本成本</p>
+<p><em>加权平均资本成本wacc</em></p>
+<p>资本资产定价模型CAPM： E(Re) = Rf + β*（Rm - Rf）<br>E(Re)权益资本的期望值<br>Rf无风险收益率<br>Rm市场收益率<br>Rm-Rf风险溢价<br>β反映某个公司与市场的相关性<br>CAPM模型的含义：获得高收益的唯一途径是承担高风险（系统风险才会补偿，个体风险不会补偿）。</p>
+<p>估计股权价值——权益资本成本<br>估计企业价值——加权平均资本成本wacc</p>
+<h1 id="预测报表"><a href="#预测报表" class="headerlink" title="预测报表"></a>预测报表</h1><p>投资活动</p>
+<ul>
+<li>step1：营业收入</li>
+<li>step2：营业成本，营业税金及附加，营业费用、管理费用</li>
+<li>step3：流动资产，固定资产，在建工程，无形资产</li>
+<li>step4：流动负债，长期负债，股本、资本公积</li>
+</ul>
+<p>投资活动</p>
+<ul>
+<li>step5：长期投资，财务费用、投资收益，营业外收支，所得税、净利润，盈余公积，未分配利润</li>
+<li>step5.5：现金，短期借款</li>
+<li>step6：现金流量表</li>
+</ul>
+<p>预测难点：营业收入的预测，长期投资的预测</p>
+<p>营业外收支：不具有持续性，预测数额0</p>
+<p>现金流量表附表——只针对经营活动现金流<br>净利润 + （） - （） = 经营活动现金流</p>
+<p>利润跟现金流产生差异原因：<br>1.净利润与经营利润的差异，调整与经营活动无关的收入和费用<br>2.经营利润与经营现金流的差异</p>
+<ul>
+<li>影响利润不影响现金流的项目</li>
+<li>影响现金流不影响利润的项目</li>
+</ul>
+<p>step1：净利润——&gt;经营净利润<br>净利润中不属于经营利润的项目：固定资产报废/处置净损益、公允价值变动损益、投资收益、财务费用<br>调整方向：增加利润的项目应该减掉，减少利润的项目应该加上<br>step2：经营净利润——&gt;经营现金流<br>影响利润但不影响现金流的业务：当期计提的减值损失（扣除转回的）、固定资产折旧、无形资产摊销，上述项目都减少了利润，但不影响现金流<br>调整方向：加上</p>
+<p>与利润无关但影响经营现金流的业务：资产、负债的变化，经营性应收、应付以及存货、递延所得税资产和负债的变动<br>调整反向：应收款增加“吃掉现金”，应付款增加带来现金；减去资产增加，加上负债增加</p>
+<p>敏感性分析：收入增长、新增投资<br>合理性分析</p>
+<p>收入预测本身更多是一个艺术过程。</p>
+<h1 id="自由现金流贴现模型估值"><a href="#自由现金流贴现模型估值" class="headerlink" title="自由现金流贴现模型估值"></a>自由现金流贴现模型估值</h1><p>股利贴现模型：普通股权益价值 = PV（股利） —— 很少用，存在循环论证</p>
+<p>权益现金流贴现模型——估计整体现金流:普通股权益价值 = PV（自由现金流 + 非经营现金流 - 负债现金流 - 其他资本索取权现金流） —— 很少用</p>
+<p>自由现金流贴现模型（DCF）：普通股权益价值 = PV（自由现金流） + 非经营性资产 - 负债 - 其他资本索取权<br>现金流表 | ** | 自由现金流表</p>
+<ul>
+<li>| - | -<br>经营现金流 | <strong> | 自由现金流<br>投资现金流 | </strong> | 非经营性现金流<br>融资现金流 | *<em> | 资本现金流<br>净现金流 | </em>净现金流相等* | 净现金流</li>
+</ul>
+<p>NOPAT税后营业净利润<br>营业收入 | 净利润</p>
+<ul>
+<li>| -<br>-营业成本 | +资产减值的损失<br>-营业费用 | -公允价值变动的收益<br>-管理费用 | -投资收益<br>-不含利息的税前经营利润 | -营业外收支<br>-税收 | +少数股东损益<br>=NOPAT | +税后利息费用（-收入）<br>*** | =NOPAT</li>
+</ul>
+<p>NOPAT + 折旧 + 递延所得税增加 - 经营性流动资产增加 - 存货增加 + 经营性流动负债增加 - 资本性支出（固定资产增加+折旧） - 商誉投资（商誉增加+摊销） = FCF(自由现金流)</p>
+<p><em>一般预测三/五年，四年/六年之后自由现金流按永续年金计算</em></p>
+<p>调整后现值模型（APV）：普通股权益价值 = PV（无杠杆时的自由现金流）+ 杠杆带来的价值 + 非经营性净资产 - 负债 - 其他资本索取权</p>
+<p>剩余收益模型（RIM）：普通股权益价值 = 主营业务的账面价值 + PV（主营业务创造的剩余收益） + 非经营性净资产 - 负债 - 其他资本索取权</p>
+<h1 id="剩余收益模型估值与EVA估值"><a href="#剩余收益模型估值与EVA估值" class="headerlink" title="剩余收益模型估值与EVA估值"></a>剩余收益模型估值与EVA估值</h1><p>调整后的现值模型APV</p>
+<ul>
+<li>公司的负债可以减少税收</li>
+<li>杠杆的增加会增加公司的偿债风险</li>
+</ul>
+<p>clean surplus relationship<br>$B_t$ = $B_t-1$ + $E_t$ - $d_t$ （$B_t$ 公司年末股东权益账面价值，$E_t$ t年公司净利润，$d_t$ 公司在t年的分红）<br>$B_t$ - $B_t-1$ = $E_t$ - $d_t$ (公司年末年初的股东权益的账面价值差等于今年盈利减去今年分红)<br>融资——反向分红；把直接计入资本公积项目调到利润表中</p>
+<p>$d_t$ = $E_t$ - （$B_t$ - $B_t-1$）</p>
+<p>$ROE_t$净资产报酬率<br>$E_t$ = $ROE_t$ <em> $B_t-1$<br>$B_t$ /(1+r) = [(1+r)-r] </em> $B_t$ /(1+r) =$B_t$ - $B_t$ * r/(1+r)</p>
+<p>竞争优势：技术水平高、成本低、品牌形象好、销售能力强</p>
+<p>EVA估值方法<br>经营性净资产（投资资本）：只包括有息负债和股东权益</p>
+<h1 id="乘数法估值"><a href="#乘数法估值" class="headerlink" title="乘数法估值"></a>乘数法估值</h1><p>每股收益（EPS）：净利润/股数<br>市盈率P/E = 每股股价/每股收益（EPS） ——通常用市盈率来表现一个公司估值水平的高低<br>市净率 = 每股股价/每股账面的股东权益数额（净资产/股数）</p>
+<p>估计价格 = 可比公司的P/E * 目标公司的EPS</p>
+<p>可比公司：业务，增长前景，会计方法，盈余构成，资本结构</p>
+<p>g（增长率）不可比的处理：<br>$PEG_COMP$ = $PE_COMP$ / $g_COMP$<br>$P_TARGET$ = $PEG_COMP$ <em> $g_SNTARGET$ </em> $E_TARGET$</p>
+<p><em>PEG只适用于高增长，低增长仍使用PE</em></p>
+<p>财务杠杆不可比的处理：<br>用无杠杆税前市盈率代替原先的市盈率</p>
+<p>会计方法不可比的处理：</p>
+<ul>
+<li>调整会计差异——净利润是会计处理方法最敏感的数据，营业收入会计处理方法最不敏感的数据；</li>
+<li>使用PS比率——使用以现金流为基础的比率，现金流本身对会计处理方法不敏感，P/E = 权益总市值 / EBITDA；</li>
+</ul>
+<p>对亏损公司进行估值：<br>使用其他的价值驱动因素——企业注册用户的数量，网站点击率等</p>
+<p>对多元化企业的估值：<br>把一个多元化企业拆分成若干个单业务公司进行估值（无杠杆税前市盈率）。</p>
+<p>市净率P/B = COMEQUITY / BV = COMEQUITY/E * E/BV</p>
+<p><del>估值过程有很大的随意性和主观性。</del></p>
+<p><strong>更准确的定性的判断是我们得到更准确定量结果的重要前提。</strong></p>
+<h1 id="对企业价值的再认识"><a href="#对企业价值的再认识" class="headerlink" title="对企业价值的再认识"></a>对企业价值的再认识</h1><p>经济利润是公司的实际收益超过预期收益的水平。</p>
+<p>价值根本来源于竞争优势，来自于企业比其他公司更有效利用自己资产，从而创造出更多实际回报。</p>
+<p>增长：ROE&gt;R，留存的收益才会创造价值<br>真正驱动价值的增长一定是剩余收益的增长，价值的增长是实际收益超过预期收益的水平的增长</p>
+<p>市盈率：复权后价格计算的市盈率 (P+d)/E = 1 + 1/r<br>P/E决定于当前与未来剩余收益的差异。</p>
+<p>市净率：P/B与当前的盈利水平无关，剩余收益的大小决定P/B。</p>
+<p>成熟企业：P/E低，P/B高<br>高增长企业：P/E P/B都高 —— 低估<br>复苏、重组的企业：P/E高 P/B低<br>当前盈利不好，又没有增长潜力的公司：P/E P/B都低  —— 高估</p>
+<p>*B站指引av60687498</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div>🙏感谢🙏</div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="WC 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/alipay.jpg" alt="WC 支付宝">
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/入门到放弃/" rel="tag"># 入门到放弃</a>
+          
+            <a href="/tags/财务/" rel="tag"># 财务</a>
+          
+            <a href="/tags/财务分析/" rel="tag"># 财务分析</a>
+          
+            <a href="/tags/会计/" rel="tag"># 会计</a>
+          
+            <a href="/tags/估值/" rel="tag"># 估值</a>
+          
+            <a href="/tags/公司估值/" rel="tag"># 公司估值</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/brand_communication.html" rel="next" title="品牌传播的洞察、策略设计与策划">
+                <i class="fa fa-chevron-left"></i> 品牌传播的洞察、策略设计与策划
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/data_representation_thoughts.html" rel="prev" title="数据表达/数据思维">
+                数据表达/数据思维 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/blog-logo.jpg" alt="WC">
+            
+              <p class="site-author-name" itemprop="name">WC</p>
+              <p class="site-description motion-element" itemprop="description">wc means whocares</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives">
+              
+                  <span class="site-state-item-count">36</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">52</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/woyouduohenni" target="_blank" title="GitHub" rel="external nofollow noopener noreferrer">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:woyouduohenni@gmail.com" target="_blank" title="E-Mail" rel="external nofollow noopener noreferrer">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+<div id="music163player">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="280" height="86" src="//music.163.com/outchain/player?type=2&id=26131760&auto=1&height=66">
+    </iframe>
+</div>
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#估值的基本方法"><span class="nav-number">1.</span> <span class="nav-text">估值的基本方法</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#预测报表"><span class="nav-number">2.</span> <span class="nav-text">预测报表</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#自由现金流贴现模型估值"><span class="nav-number">3.</span> <span class="nav-text">自由现金流贴现模型估值</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#剩余收益模型估值与EVA估值"><span class="nav-number">4.</span> <span class="nav-text">剩余收益模型估值与EVA估值</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#乘数法估值"><span class="nav-number">5.</span> <span class="nav-text">乘数法估值</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#对企业价值的再认识"><span class="nav-number">6.</span> <span class="nav-text">对企业价值的再认识</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-snowflake-o"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">WC</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">Site words total count&#58;</span>
+    
+    <span title="Site words total count">62.3k</span>
+  
+</div>
+
+
+
+
+
+
+
+
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5448502709833572",
+    enable_page_level_ads: true
+  });
+</script>
+
+        
+<div class="busuanzi-count">
+  <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv">
+      <i class="fa fa-user"></i> 访问人数
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+      人次
+    </span>
+  
+
+  
+    <span class="site-pv">
+      <i class="fa fa-eye"></i> 总访问量
+      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
+      次
+    </span>
+  
+</div>
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("whGj17RFOpq4aHkCoaMEerFD-gzGzoHsz", "ybofAhlWlKGKNA76CqXvSzz7");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            counter.save(null, {
+              success: function(counter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(counter.get('time'));
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            var newcounter = new Counter();
+            /* Set ACL */
+            var acl = new AV.ACL();
+            acl.setPublicReadAccess(true);
+            acl.setPublicWriteAccess(true);
+            newcounter.setACL(acl);
+            /* End Set ACL */
+            newcounter.set("title", title);
+            newcounter.set("url", url);
+            newcounter.set("time", 1);
+            newcounter.save(null, {
+              success: function(newcounter) {
+                var $element = $(document.getElementById(url));
+                $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+              },
+              error: function(newcounter, error) {
+                console.log('Failed to create');
+              }
+            });
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+
+<!--崩溃欺骗-->
+<script type="text/javascript" src="/js/src/crash_cheat.js"></script>
